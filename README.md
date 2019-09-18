@@ -5,7 +5,6 @@ We have with us the data of more than 500 super humans but we need  knowledge of
 
 ## About the dataset
 The dataset has details of 594 super hero characters with the following 17 features.<br/>
-D	Unique character ID
 Name,	
 Gender,
 Intelligence,	
