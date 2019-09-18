@@ -1,8 +1,7 @@
 # SuperHero-Statistics
 We have with us the data of more than 500 super humans but we need  knowledge of descriptive statistics in figuring out the important insights from it.<br/>
 
-
-![Alt txt](https://miro.medium.com/max/1800/1*bBHEqOOz-1WBWI-XJgeShQ.png)
+![Alt txt](https://i.ytimg.com/vi/CmNgOJYgM5I/maxresdefault.jpg)
 
 ## About the dataset
 The dataset has details of 594 super hero characters with the following 17 features.<br/>
