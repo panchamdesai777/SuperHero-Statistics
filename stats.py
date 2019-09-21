@@ -21,19 +21,19 @@ plt.pie(alignment,autopct='%.1f%%',shadow=True)
 #Task 3 - Combat Correlation
 #Code starts here
 sc_df=data[['Strength','Combat']].copy()
-sc_covariance = data.Strength.cov(data.Combat) #calclate covariance between two columns
-sc_strength=data['Strength'].std() #calculating standard deviationb
-sc_combat=data['Combat'].std() #calculating standard deviation
-mul=sc_strength*sc_combat # product of calculated above standard deviation
-sc_pearson= sc_covariance/mul #calculating pearson coefficient
+sc_covariance = data.Strength.cov(data.Combat)             #calclate covariance between two columns
+sc_strength=data['Strength'].std()                 #calculating standard deviationb
+sc_combat=data['Combat'].std()                     #calculating standard deviation
+mul=sc_strength*sc_combat                   # product of calculated above standard deviation
+sc_pearson= sc_covariance/mul                      #calculating pearson coefficient
 print('Pearsons Correlation Coefficient:',sc_pearson)
 print('============================================================================')
 ic_df=data[['Intelligence','Combat']].copy()
 ic_covariance=data.Intelligence.cov(data.Combat)   #calclate covariance 
-ic_intelligence=data.Intelligence.std() #calculating standard deviation
-ic_combat=data['Combat'].std() #calculating standard deviation
-ic_mul=ic_intelligence*ic_combat # product of calculated above standard deviation
-ic_pearson=ic_covariance/ic_mul #calculating pearson coefficient
+ic_intelligence=data.Intelligence.std()            #calculating standard deviation
+ic_combat=data['Combat'].std()                 #calculating standard deviation
+ic_mul=ic_intelligence*ic_combat                     # product of calculated above standard deviation
+ic_pearson=ic_covariance/ic_mul                     #calculating pearson coefficient
 print('Pearsons Correlation Coefficient:',ic_pearson)
 
 #Task 4 - Overpowered Super Beings
